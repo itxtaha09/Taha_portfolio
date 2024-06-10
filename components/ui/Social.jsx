@@ -8,8 +8,8 @@ const socials = [
     {icon: <FaInstagram />, path:""},
     {icon: <FaTwitter />, path:""},
 ];
-
-const Social = (containerStyles, iconStyles) => {
+// video wala be like: Ye Baten batai nhi jati, Next js warr jati hai 
+const Social = ({containerStyles, iconStyles}) => {
     return (
         <div className={containerStyles}>
             {socials.map((item, index)=>{
