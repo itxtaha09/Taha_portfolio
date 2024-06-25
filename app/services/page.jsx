@@ -7,7 +7,7 @@ const services = [
     {
         num: "01",
         title: "Web Development",
-        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis temporibus",
+        description: "I specialize in creating dynamic, user-centric web applications. Ensuring high-performance and responsive design in every project.",
         href: "",
     },
     {

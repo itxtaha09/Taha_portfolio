@@ -1,12 +1,12 @@
 "use client";
 
-import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma, FaNodeJs } from "react-icons/fa";
-import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
+import { FaHtml5, FaCss3, FaJs, FaReact, FaNodeJs} from "react-icons/fa";
+import { SiTailwindcss, SiNextdotjs, SiMongodb } from "react-icons/si";
 
 // about data
 const about = {
     title: "About me",
-    description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate assumenda, voluptatibus molestiae!",
+    description: "A dedicated individual committed to achieving excellence in every endeavor.",
     info: [
         {
             fieldName: "Name",
@@ -48,7 +48,7 @@ const about = {
 const experience = {
     Icon: "/assets/resume/badge.svg",
     title: "My experience",
-    description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate assumenda, voluptatibus molestia!",
+    description: "One year of experience in web development, specializing in React, Next, Node.js, and Vercel, to create dynamic, user-friendly websites and applications.",
     items: [
         {
             company: "Arfa Karim Tech.",
@@ -77,7 +77,7 @@ const experience = {
 const education = {
     Icon: "/assets/resume/cap.svg",
     title: "My education",
-    description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate assumenda, voluptatibus molestia!",
+    description: "Completed Intermediate in Pre-Engineering, with additional certification in web development, demonstrating a strong foundation in web technologies.",
     items: [
         {
             institution: "Arfa Karim Tech Incubator",
@@ -106,7 +106,7 @@ const education = {
 // skills data
 const skills = {
     title: "My skills",
-    description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate assumenda, voluptatibus molestia!",
+    description: "Skilled in web development languages such as HTML, CSS, JavaScript, along with expertise in frameworks and libraries like React, Next, Node.js, Express and Mongodb.",
     skillList: [
         {
             icon: <FaHtml5 />,
@@ -133,8 +133,8 @@ const skills = {
             name: "tailwind.css",
         },
         {
-            icon: <FaFigma />,
-            name: "figma",
+            icon: <SiMongodb />,
+            name: "Mongodb",
         },
         {
             icon: <FaNodeJs />,
