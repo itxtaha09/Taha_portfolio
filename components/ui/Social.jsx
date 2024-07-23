@@ -1,14 +1,14 @@
 import Link from "next/link";
 
-import { FaGithub, FaYoutube, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaFacebook, FaLinkedin } from "react-icons/fa";
 
 const socials = [
-    {icon: <FaGithub />, path:""},
-    {icon: <FaYoutube />, path:""},
-    {icon: <FaInstagram />, path:""},
-    {icon: <FaTwitter />, path:""},
+    { icon: <FaGithub />, path:"https://github.com/itxtaha09"},
+    { icon: <FaLinkedin />, path:"https://www.linkedin.com/in/muhammad-taha-3518a2259/"},
+    { icon: <FaInstagram />, path:"https://www.instagram.com/itx_taha_09/"},
+    { icon: <FaFacebook />, path:"https://web.facebook.com/taha.prince.37051/"},
 ];
-// video wala be like: Ye Baten batai nhi jati, Next js warr jati hai 
+
 const Social = ({containerStyles, iconStyles}) => {
     return (
         <div className={containerStyles}>

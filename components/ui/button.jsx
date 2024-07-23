@@ -10,8 +10,8 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default:"bg-accent text-primary hover:bg-accent-hover",
-        primary:'bg-primary text-white',
-        border:'border border-accent bg-trasnparent text-accent hover:bg-accent hover:text-primary',
+        primary:"bg-primary text-white",
+        border:"border border-accent bg-trasnparent text-accent hover:bg-accent hover:text-primary",
       },
       size: {
         default: "h-[44px] px-6",
@@ -24,7 +24,7 @@ const buttonVariants = cva(
       size: "default",
     },
   }
-)
+);
 
 const Button = React.forwardRef(({ className, variant, size, asChild = false, ...props }, ref) => {
   const Comp = asChild ? Slot : "button"
